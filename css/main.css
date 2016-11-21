@@ -1,0 +1,198 @@
+	/*@import url(http://fonts.useso.com/css?family=Source+Sans+Pro:200,300);*/
+	body
+	{
+		background-image: url(./../images/bg4.jpg);
+		background-size: 100%;
+		background-repeat: bottom;
+		background-position: center;
+		background-attachment: fixed;
+		font-family: Microsoft Yahei UI Light;
+	}
+	.title
+	{
+		text-align: center;
+		font-family: Franklin Gothic Heavy;
+		color:#FFFFFF;
+		font-size: 60px;
+		background-color: rgba(255,255,255,0.1);
+		padding-top: 30px;
+		padding-bottom: 30px;
+		letter-spacing: 10px;
+	}
+	.intform
+	{
+		background-color: rgba(255,255,255,0.1);
+		height: 800px;
+		
+		position: relative;
+		text-align: center;
+		padding-top: 100px;
+		color: #FFFFFF;
+		font-size: 30px;
+	}
+	#registerform
+	{
+		padding-top: 50px;
+	}
+	#logininput
+	{
+		margin: 0 auto 30px auto;
+		display: block;
+	}
+	.button
+	{
+		font-size: 30px;
+		-webkit-appearance: none;
+		font-family: Microsoft Yahei UI Light;
+        appearance: none;
+		margin: 20px;
+		padding: 5px;
+		outline: 0;
+  		background-color: #273237;
+  		border: 1px solid white;
+  		padding: 10px 15px;
+  		color: #FFFFFF;
+  		border-radius: 20px;
+  		width: 300px;
+  		cursor: pointer;
+  		font-size: 18px;
+  		-webkit-transition-duration: 0.25s;
+        transition-duration: 0.25s;
+	}
+	.input 
+	{
+  		-webkit-appearance: none;
+        appearance: none;
+        font-family: Microsoft Yahei UI Light;
+  		outline: 0;
+  		border: 1px solid rgba(255, 255, 255, 0.4);
+  		background-color: rgba(77,75,88, 1);
+  		width: 233px;
+  		border-radius: 30px;
+  		padding: 15px 35px;
+  		margin: 0 auto 0px auto;
+ 		display: inline-block;
+  		text-align: left;
+  		font-size: 18px;
+  		color: #FFFFFF;
+  		-webkit-transition-duration: 0.25s;
+        transition-duration: 0.25s;
+  		font-weight: 200;
+	}
+	.message
+	{
+		-webkit-appearance: none;
+        appearance: none;
+        font-family: Microsoft Yahei UI Light;
+  		outline: 0;
+  		border: 1px solid rgba(255, 255, 255, 0.4);
+  		background-color: rgba(77,75,88, 1);
+  		width: 600px;
+  		height: 30px;
+  		border-radius: 30px;
+  		padding: 15px 35px;
+  		margin: 0 auto 0px auto;
+ 		display: block;
+  		text-align: left;
+  		font-size: 18px;
+  		color: #FFFFFF;
+  		-webkit-transition-duration: 0.25s;
+        transition-duration: 0.25s;
+  		font-weight: 200;
+  		overflow:hidden;
+	}
+	.input:hover
+	{
+ 		 background-color: rgba(255, 255, 255, 0.4);
+	}
+	.input:focus 
+	{
+  		background-color: #FFFFFF;
+  		/*width: 266px;*/
+  		color: #4433cc;
+	}
+	.message:hover
+	{
+ 		 background-color: rgba(255, 255, 255, 0.4);
+	}
+	.message:focus 
+	{
+  		background-color: #FFFFFF;
+  		/*width: 266px;*/
+  		color: #4433cc;
+  		height: 200px;
+	}
+	::-webkit-input-placeholder 
+	{
+  		color: #FFFFFF;
+	}
+	::-webkit-input-placeholder:focus
+	{
+  		color: #4433cc;
+	}
+	.button:hover 
+	{
+  		background-color: #f5f7f9;
+  		color: #4433cc;
+	}
+	a:link
+	{
+		color: #cc3322; 
+		text-decoration:underline;
+	} 
+	a:visited
+	{
+		color: #cc3322; 
+		text-decoration:underline;
+	} 
+	a:hover
+	{
+		color: #335522; 
+		text-decoration:underline;
+	} 
+	/*.icon-user
+	{
+		position: absolute;
+		left:40%;
+		top:12.5%;
+		z-index: 999;
+		background-image: url(./../images/user.png); 
+		background-repeat: no-repeat; 
+		background-position: 0px 0px; 
+		width: 30px; 
+		height: 30px; 
+	}*/
+	#getcontent 
+	{
+		font-size: 16px;
+		color: #FFFFFF;
+		margin-left: 15%;
+		margin-right: 15%;
+		width: 100%;
+	}
+	
+	#time
+	{
+		width: 50%;
+		text-align: right;
+	}
+	#uname
+	{
+		width: 50%;
+		text-align: left;
+	}
+	#comment
+	{
+		text-align: left;
+		word-break: break-all; 
+		word-wrap: break-all;
+	}
+	/*#nav
+	{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 60px;
+		background: #6cf;
+		clear:both;
+	}*/
